@@ -1,0 +1,12 @@
+{
+  "name": "node-docker",
+  "version": "1.0.0",
+  "description": "Practica Docker Node",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "node-cron": "^3.0.3"
+  }
+}
