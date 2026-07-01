@@ -24,4 +24,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/cron-ticket:latest
+          tags: |
+            ${{ secrets.DOCKERHUB_USERNAME }}/cron-ticket:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/cron-ticket:1.0.0
